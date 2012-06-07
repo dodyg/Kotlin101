@@ -9,7 +9,7 @@ fun main(args : Array<String>) {
     //Use triple quote """ to go multi line. This also means that you can use double quote " freely in the string.
     //This demonstrate template expression. Pretty neat huh. You can use ${ } to show any arbitrary expression
     println("""My favorite quote is by '$plato1' although at ${plato1.length} characters long, it is not compact.
-He is also a skeptic on love "${platoOnLove()}"
+He is also a skeptic on love "${platoOnLove()}. He is wrong, love is as simple as 1 + 1 = ${1 + 1 }."
             """)
 }
 
