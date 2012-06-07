@@ -16,4 +16,12 @@ fun main(args : Array<String>) {
         loop--
         print("${presidents[loop]}, ")
     }
+
+    println("")
+    print("I puzzle these presidents ")
+    var pool = presidents.size
+    do {
+        pool--
+        print("${presidents[pool]}, ")
+    }while(pool > 0)
 }
