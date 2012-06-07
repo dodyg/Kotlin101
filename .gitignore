@@ -174,3 +174,4 @@ pip-log.txt
 *.ear
 
 /out/production
+/out
