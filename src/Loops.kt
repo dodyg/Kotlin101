@@ -6,22 +6,28 @@ fun main(args : Array<String>) {
 
     print("I love these presidents ")
     for (p in presidents) {
-        print ("$p,")
+        print ("$p, ")
+    }
+
+    println("")
+    print("I voted for these presidents ")
+    for (p in presidents.indices) {
+        print ("${presidents[p]}, ")
     }
 
     println("")
     print("I loath these presidents ")
-    var loop = presidents.size
-    while (loop > 0) {
-        loop--
-        print("${presidents[loop]}, ")
+    var i = presidents.size
+    while (i > 0) {
+        i--
+        print("${presidents[i]}, ")
     }
 
     println("")
     print("I puzzle these presidents ")
-    var pool = presidents.size
+    var q = presidents.size
     do {
-        pool--
-        print("${presidents[pool]}, ")
-    }while(pool > 0)
+        q--
+        print("${presidents[q]}, ")
+    }while(q > 0)
 }
