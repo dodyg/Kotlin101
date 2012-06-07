@@ -16,3 +16,6 @@ He is also a skeptic on love "${platoOnLove()}. He is wrong, love is as simple a
 fun platoOnLove(): String{
     return "Love is a serious mental disease."
 }
+
+
+/* what's next? try Variables.kt to learn about immutable/mutable variable declarations */
