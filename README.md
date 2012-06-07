@@ -1,0 +1,1 @@
+This is a collection of runnable console applications that highlights the features of Kotlin programming language.
