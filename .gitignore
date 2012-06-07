@@ -172,3 +172,5 @@ pip-log.txt
 *.jar
 *.war
 *.ear
+
+/out/production

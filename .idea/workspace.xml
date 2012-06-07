@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18015328-0883-4efc-b5a8-88ea6dd57858" name="Default" comment="" />
+    <list default="true" id="18015328-0883-4efc-b5a8-88ea6dd57858" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Kotlin101.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,10 +60,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.kt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HelloWorld.kt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HelloWorld.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="18" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="1" selection-end="18" vertical-scroll-proportion="0.03655914">
               <folding />
             </state>
           </provider>
@@ -76,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adam.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Adam.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Adam.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="62" selection-end="66" vertical-scroll-proportion="0.03655914">
+            <state line="2" column="137" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,38 +218,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="kotlin-runtime.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kotlin101" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kotlin101" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kotlin101" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kotlin101" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dictionaries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -602,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
@@ -618,7 +581,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Adam.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="62" selection-end="66" vertical-scroll-proportion="0.03655914">
+        <state line="2" column="137" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="18" vertical-scroll-proportion="0.03655914">
           <folding />
         </state>
       </provider>
