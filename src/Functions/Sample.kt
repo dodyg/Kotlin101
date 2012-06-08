@@ -3,8 +3,10 @@ package Functions
 fun main (Args : Array<String>){
     doCalculation({
     y ->
-        var m = y + 10
-        m
+        if (y > 10)
+            y + 10
+        else
+            y + 20
     })
 }
 
