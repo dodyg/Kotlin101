@@ -37,3 +37,4 @@ trait Dancing {
 class LessFlexible(name : String): FlexibleConstruct(name), Singing, Dancing {
 
 }
+
