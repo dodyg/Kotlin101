@@ -1,4 +1,4 @@
-package Objects.Traits
+package Kotlin101.Objects.Traits
 
 fun main(args : Array<String>){
     var adam = Cowboy("Adam")
@@ -6,7 +6,7 @@ fun main(args : Array<String>){
 }
 
 trait Shooting {
-    abstract var name : String
+    var name : String
     fun does(){
         print("$name can Shoot")
     }
