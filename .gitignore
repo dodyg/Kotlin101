@@ -173,6 +173,8 @@ pip-log.txt
 *.war
 *.ear
 
+/lib/kotlin-runtime.jar
+
 /out/production
 /out
 
