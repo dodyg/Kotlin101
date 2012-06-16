@@ -6,7 +6,7 @@ fun main(args : Array<String>){
 }
 
 trait Shooting {
-    var name : String
+    public var name : String
     fun does(){
         print("$name can Shoot")
     }
