@@ -1,4 +1,4 @@
-package Functions
+package Kotlin101.Functions.Sample
 
 fun main (Args : Array<String>){
     doCalculation({
