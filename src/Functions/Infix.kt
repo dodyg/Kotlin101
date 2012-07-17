@@ -1,4 +1,4 @@
-package Functions.Infix
+package Kotlin101.Functions.Infix
 
 public fun main(args : Array<String>){
    val say = "Hello " add "world"

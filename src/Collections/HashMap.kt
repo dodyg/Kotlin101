@@ -11,4 +11,9 @@ fun main (args : Array<String>){
 
     for (k in dict.keySet())
         println("Key in '$k' with value '${dict[k]}'")
+
+    println("Looping using entrySet")
+
+    for (n in dict.entrySet())
+        println("Key ${n.key} with value ${n.value}")
 }
