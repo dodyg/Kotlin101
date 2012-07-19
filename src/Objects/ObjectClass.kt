@@ -16,7 +16,6 @@ fun main(args : Array<String>) {
     //how do you pass it to a parameter
 }
 
-
 class Matador(name : String){
     private val name : String = name
 

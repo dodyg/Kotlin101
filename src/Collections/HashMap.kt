@@ -15,5 +15,5 @@ fun main (args : Array<String>){
     println("Looping using entrySet")
 
     for (n in dict.entrySet())
-        println("Key ${n.key} with value ${n.value}")
+        println("Key ${n?.getKey()} with value ${n?.getValue()}")
 }
