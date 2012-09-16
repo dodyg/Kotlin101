@@ -27,7 +27,7 @@ public class Superman() {
 }
 
 trait Sidekick {
-    public abstract fun special()
+    public fun special()
 }
 
 public class Spiderman() : Sidekick {

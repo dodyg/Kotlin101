@@ -10,6 +10,7 @@ fun main (Args : Array<String>){
     batman.say()
 
     var robin = SuperPower()
+    robin.say()
 }
 
 public class SuperPower(){
