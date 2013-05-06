@@ -1,4 +1,4 @@
-package Kotlin101.Objects.Literals
+package Kotlin101.Objects.PairAndTriple
 
 //In the old days (Kotlin M2), Kotlin has tuples. They have been removed at M3. Now you can use instead Pair or Triple (they are implemented as data class)
 fun main (Args : Array<String>){
