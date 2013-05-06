@@ -13,7 +13,7 @@ fun main (Args : Array<String>){
 }
 
 public fun <T>T.with(operations : T.() -> Unit) : T {
-    this.operations()
+    operations()
     return this
 }
 

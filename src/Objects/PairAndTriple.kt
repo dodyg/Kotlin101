@@ -7,9 +7,12 @@ fun main (Args : Array<String>){
 
     println("${greet.first} ${greet.second} or $word1 $word2")
 
-
     var greet2 = Triple("I", "am", 34)
     val(word3, word4, number) = greet2
 
     println("${greet2.first} ${greet2.second} ${greet2.third} or $word3 $word4 $number")
+
+    //extension functions "to" creates pair
+    val greet3 = "Hello" to "World2"
+    println ("${greet3.first} ${greet3.second}")
 }
