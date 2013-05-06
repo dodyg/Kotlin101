@@ -1,8 +1,8 @@
 package Kotlin101.Functions.Parameters
 
 //primitive parameters (String, Int, Float, etc) is passed by value so you cannot change the value of the passed parameter
-fun primitives(var name : String){
-    name = "John Adams"
+fun primitives(name : String){
+    //name = "John Adams"
 }
 
 //object references are also passed by value (which means you cannot change the object itself - check complex2 function) but since it is an object reference,
@@ -12,9 +12,6 @@ fun complex(p : Person){
     p.lastName = "Adams"
 }
 
-fun complex2(var p : Person){
-    p = Person("John", "Adams")
-}
 
 data class Person (var firstName : String, var lastName : String)
 {
@@ -34,7 +31,4 @@ fun main (Args : Array<String>){
 
     var president3 = Person("John", "Kennedy")
     println("President name is ${president3.firstName} ${president3.lastName}")
-    complex2(president3)
-    println("Now the is ${president3.firstName} ${president3.lastName}")
-
 }
