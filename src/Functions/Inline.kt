@@ -1,8 +1,6 @@
 package  Kotlin101.Functions.Inline
 
-
-[inline]
-fun sayHello(number : Int){
+inline fun sayHello(number : Int){
     println("hello world $number")
 }
 
