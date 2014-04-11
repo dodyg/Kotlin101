@@ -7,7 +7,7 @@ fun sayHello(number : Int){
 }
 
 public fun main(args : Array<String>){
-    (1..10).forEach { i ->
-        sayHello(i)
+    (1..10).forEach {
+        sayHello(it)
     }
 }
