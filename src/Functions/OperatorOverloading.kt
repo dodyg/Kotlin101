@@ -30,7 +30,5 @@ public class SuperPower(){
         println(action + " " + power)
     }
 
-    fun toString() : String{
-        return "$power"
-    }
+    override fun toString() : String = "$power"
 }

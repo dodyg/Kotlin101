@@ -14,7 +14,7 @@ fun main (args : Array<String>){
     val bools = booleanArray(true, false, true)
     val bytes = byteArray(1, 2)
     val ints = intArray(1,2,3)
-    val floats = floatArray(1.0, 2.0, 3.0)
+    val floats = floatArray(1.0f, 2.0f, 3.0f)
     val doubles = doubleArray(1.0, 2.0, 3.0)
     val longs = longArray(1, 2, 3)
     val chars = charArray('1', '2', '3')
