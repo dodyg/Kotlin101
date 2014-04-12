@@ -1,7 +1,7 @@
 package Kotlin101.Collections.HashMaps
 
 fun main (args : Array<String>){
-    val dict = hashMap (
+    val dict = hashMapOf (
         "adam" to "Illionis",
         "bryan" to "Alabama",
         "cain" to "Oklahoma"
