@@ -1,6 +1,9 @@
-package Kotlin101.Objects.Traits
+package Objects
 
-fun main(args : Array<String>){
+// Traits are deprecated; "trait" is not even a keyword anymore. Interfaces FTW.
+// http://blog.jetbrains.com/kotlin/2015/04/upcoming-changes-and-more/
+
+/*fun main(args : Array<String>){
     var adam = Cowboy("Adam")
     adam.does()
 }
@@ -14,4 +17,4 @@ trait Shooting {
 
 class Cowboy (name : String): Shooting{
    override var name = name
-}
+}*/
